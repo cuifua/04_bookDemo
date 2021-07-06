@@ -15,5 +15,7 @@ public class test01
         Books books = new Books(1008,"资本论",99,"马克思对于阶级的观察与剖析");
         Integer i = bookService.addBook(books);
         System.out.println(i);
+
+        System.out.println("==========Github========");
     }
 }
